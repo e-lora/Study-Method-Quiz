@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Method</title>
+    <link rel="stylesheet" href="studymethodquiz.css">
+</head>
+<body>
+    <h1>Study Method Quiz</h1>
+    <form id="quizForm">
+        <label for="question1">Question 1: How do you prefer to receive new information?</label>
+        <br>
+        <input type="radio" name="question1" value="seeing"> Seeing <br>
+        <input type="radio" name="question1" value="hearing"> Hearing <br>
+        <input type="radio" name="question1" value="read/write"> Reading/Writing <br>
+        <input type="radio" name="question1" value="physical activtiy"> Physical Activity/Hands-on <br><br>
+
+        <label for="question2">Question 2: Which of these help you the most when studying for a test?</label>
+        <br>
+        <input type="radio" name="question2" value="flashcards"> Flashcards <br>
+        <input type="radio" name="question2" value="listening"> Listen to recordings <br>
+        <input type="radio" name="question2" value="rewriting"> Rewrite notes <br>
+        <input type="radio" name="question2" value="practice"> Practice problems or activities <br><br>
+
+        <label for="question3">Question 3: Which way helps you understand material better?</label>
+        <br>
+        <input type="radio" name="question3" value="videos/mind map"> Educational videos or mind mapping <br>
+        <input type="radio" name="question3" value="discussion/explain"> Group discussions or explain concepts out loud <br>
+        <input type="radio" name="question3" value="rewrite in own words"> Rewrite information in your own words or outlines <br>
+        <input type="radio" name="question3" value="engage"> Engage in activities like experience or simulators or act out scenarios to understand complex concept <br><br>
+
+        <label for="question4">Question 4: What can potentially distract you when you study?</label>
+        <br>
+        <input type="radio" name="question4" value="phone notif"> Phone notification or busy background <br>
+        <input type="radio" name="question4" value="noisy"> Noisy environment or music with lyrics <br>
+        <input type="radio" name="question4" value="excessive notes"> Excessive note taking without reflecting <br>
+        <input type="radio" name="question4" value="fidget"> Restlessness or urge to fidget <br><br>
+
+        <button type="button" onclick="submitQuiz()">Submit</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="studymethodquiz.js"></script>
+    
+</body>
+</html>
